@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" version="2.5" method="upgrade">
+	<name>seb_events</name>
+	<author>Codigo Aberto</author>
+	<authorEmail>marcio.marques@codigoaberto.pt</authorEmail>
+	<authorUrl>http://www.codigoaberto.pt</authorUrl>
+	<copyright>Copyright (C) 2014 Codigo Aberto. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<creationDate>April 2014</creationDate>
+	<description>Calendar Template forSEBLOD 3.x // by Codigo Aberto - www.codigoaberto.pt</description>
+	<version>3.3.3</version>
+	
+	<files>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>fields</folder>
+		<folder>images</folder>
+		<folder>includes</folder>
+		<folder>languages</folder>
+		<folder>positions</folder>
+		<folder>variations</folder>
+		
+		<filename>config.php</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<languages folder="languages">
+		<language tag="en-GB">en-GB/en-GB.tpl_seb_events.ini</language>
+	</languages>
+	
+	<positions>
+		<position>eventdate</position>
+		<position>eventtitle</position>
+		<position>popover</position>
+	</positions>
+	
+	<config addfieldpath="/libraries/cck/construction/field">
+		<fields name="params">
+		</fields>
+	</config>
+</extension>
