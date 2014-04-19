@@ -1,13 +1,12 @@
 <?php
 /**
-* @version 			SEBLOD 3.x Core
-* @package			SEBLOD (App Builder & CCK) // SEBLOD nano (Form Builder)
-* @url				http://www.seblod.com
-* @editor			Octopoos - www.octopoos.com
-* @copyright		Copyright (C) 2013 SEBLOD. All Rights Reserved.
+* @version 			Seb_events 1.0
+* @package			Seblod Events Template for Seblod 3.x
+* @url				http://www.codigoaberto.pt
+* @editor			Codigo Aberto - www.codigoaberto.pt
+* @copyright		Copyright (C) 2014 Codigo Aberto. All Rights Reserved.
 * @license 			GNU General Public License version 2 or later; see _LICENSE.php
 **/
-
 defined( '_JEXEC' ) or die;
 
 // "No Result" Page.
