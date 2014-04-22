@@ -98,6 +98,7 @@ weeks : [ "<?php echo JText::_('Sunday');?>", "<?php echo JText::_('Monday');?>"
 			
 jQuery(document).ready(function(){
 					jQuery('.hasTooltip').tooltip({"html": true,"container": "body"});
+						jQuery('.cck_page > div > h2').append('<span><?php echo $many;?> <?php echo JText::_('SEB_EVENTS');?> Events</span>');
 				});
 		</script><noscript></noscript>
 <?php
