@@ -9,7 +9,7 @@ Download: https://github.com/codigoaberto/seb_events/archive/master.zip
 
 fields name / positions:
 
-eventdate - field where you indicate the date, must be in output format MM-DD-YYYY. Put it in eventdate position.
+eventdate - field where you indicate the date. Put it in eventdate position.
 
 art_title - event title . Put it in eventtitle positiion. It will have a link to content view.
 
