@@ -46,7 +46,8 @@ var seblodEvents = {
 $many = count($items);
 			 $is=1;			foreach ( $items as $i=>$item ) {
 		$html		=	'';
-			$i_date		=	$item->renderField( $f_date );
+		//	$i_date		=	$item->renderField( $f_date );
+			$i_date = date('m-d-Y', strtotime($item->get($f_date)->value));
 			$i_title	=	$item->getValue( $f_title );
 			foreach ( $f_content as $iw ) {
 				$content	=	$item->renderField( $iw );
