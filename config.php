@@ -1,6 +1,6 @@
 <?php
 /**
-* @version 			Seb_events 1.0
+* @version 			Codigoaberto_events 1.0
 * @package			Seblod Events Template for Seblod 3.x
 * @url				http://www.codigoaberto.pt
 * @editor			Codigo Aberto - www.codigoaberto.pt
