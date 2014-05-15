@@ -59,11 +59,11 @@ $many = count($items);
 			}
 			$html		=	htmlspecialchars($html);
 			if($many==$is):
-		?>	"<?php echo $i_date;?>": {html:"<a href='<?php echo $item->getLink('art_title');?>'><?php echo $i_title;?></a>", title:"<?php echo $i_title;?>",text:"<?php echo $html; ?>"}
+		?>	"<?php echo $i_date;?>": {html:"<a href='<?php echo $item->getLink($f_title);?>'><?php echo $i_title;?></a>", title:"<?php echo $i_title;?>",text:"<?php echo $html; ?>"}
 						<?php
 		else:
 		?>
-		"<?php echo $i_date;?>": {html:"<a href='<?php echo $item->getLink('art_title');?>'><?php echo $i_title;?></a>", title:"<?php echo $i_title;?>",text:"<?php echo $html; ?>"},
+		"<?php echo $i_date;?>": {html:"<a href='<?php echo $item->getLink($f_title);?>'><?php echo $i_title;?></a>", title:"<?php echo $i_title;?>",text:"<?php echo $html; ?>"},
 		<?php
 		endif; $is++; } ?>
 				};
